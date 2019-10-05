@@ -79,6 +79,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repository: https://{TC_USER}:{TC_TOKEN}@git.coding.net:wfalloc/pages.git
+    repository: https://{TC_USER}:{TC_TOKEN}@git.coding.net/wfalloc/pages.git
     branch: master
 
