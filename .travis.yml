@@ -13,7 +13,7 @@ branches:
     - master
 # 下载主题
 before_install:
-  - git clone https://github.com/shixiaohu2206/hexo-theme-huhu.git themes/huhu
+  # - git clone https://github.com/shixiaohu2206/hexo-theme-huhu.git themes/huhu
 install:
   - npm install
   - npm install hexo-deployer-git --save
