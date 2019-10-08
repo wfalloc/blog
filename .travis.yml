@@ -17,7 +17,7 @@ before_install:
 install:
   - npm install
   - npm install hexo-deployer-git --save
-  - npm install webpack-dev-server
+  - npm install webpack-dev-server --save
 script:
   - hexo clean
   - hexo generate
