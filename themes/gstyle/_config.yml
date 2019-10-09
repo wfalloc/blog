@@ -27,7 +27,8 @@ links:
     intro: "GitHub"
 
 # disqus_shortname: wayou
-duoshuo_shortname: wayouliu
+
+valine_shortname: wfanr
 #site statistic
 google_analytics:  
 # baidu_analytics: 392796d51567e848aebf813b65cb8656
