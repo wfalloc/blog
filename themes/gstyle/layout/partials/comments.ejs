@@ -44,6 +44,18 @@
       </script>
     <!-- 多说公共JS代码 end -->
 
+  <% } else if(theme.valine_shortname) { %>
+
+    <div id="vcomments"></div>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '8qyDzEo7vXuUX7NthTwYTvdq-gzGzoHsz',
+            appKey: 'P5AIwtWeX3az3LXbn91PO1Os'
+        })
+    </script>
+
   <% } %>
 <% } %>
 
