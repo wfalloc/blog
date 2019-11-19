@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.wfanr.cf
+url: https://www.wfanr.gq
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +73,23 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: gstyle
+theme: utone
+
+# 菜单导航
+menu:
+  home: /
+  archives: /archives
+  about: /about
+  RSS: /atom.xml
+
+#logo
+logo: /images/logo.png
+
+# favicon
+favicon: /images/favicon.ico
+
+# rss
+rss: /atom.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -94,3 +110,30 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+  # 修改url
+url: https://www.wfanr.gq/
+
+# 开启站内搜索
+site_search: true
+
+# 站内搜索生成文件配置 https://github.com/alexbruno/hexo-generator-json-content
+jsonContent:
+  meta: false
+  pages: false
+  dateFormat: 'Y-m-d H:i'
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: true
+    excerpt: false
+    categories: false
+    tags: true
