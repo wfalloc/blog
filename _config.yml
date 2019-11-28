@@ -16,7 +16,7 @@ timezone:
 url: https://www.wfanr.cn/
 root: /
 # permalink: :year/:month/:day/:title/
-permalink: :id/
+permalink: :id.html
 permalink_defaults:
 
 # Directory
