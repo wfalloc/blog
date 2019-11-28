@@ -1,10 +1,10 @@
 ---
-title: 代码片段
+title: PHP CURL 上传文件
 toc: true
 date: 2019-10-23 11:45:46
 ---
 
-#### PHP curl 上传文件
+#### PHP CURL 上传文件
 
 ```php
 public function curlUploadFile()
