@@ -28,6 +28,8 @@ menu:
 # ===========================================
 # color: default | mint green | cobalt blue | hot pink | dark violet
 color: default
+logo-font-size: 32px
+post-toc-title-size: 13px
 
 # default page mode: default | archives
 mode: default
