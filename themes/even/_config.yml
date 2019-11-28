@@ -32,7 +32,7 @@ color: default
 # post-toc-title-size: 13px
 
 # default page mode: default | archives
-mode: default
+mode: archives
 
 toc: true
 
