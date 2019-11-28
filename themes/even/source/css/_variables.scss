@@ -90,7 +90,8 @@ $header-padding: 20px 20px !default;
 }
 
 // Font size of the logo.
-$logo-font-size: 48px !default;
+// $logo-font-size: 48px !default;
+$logo-font-size: 32px !default;
 
 // Font family of the logo.
 $logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
@@ -156,7 +157,8 @@ $post-toc-backgroud: rgba($deputy-color, 0.6) !default;
 $post-toc-margin-left: $global-body-width - 15px !default;
 
 // Font size of the post toc title.
-$post-toc-title-size: 20px !default;
+// $post-toc-title-size: 20px !default;
+$post-toc-title-size: 13px !default;
 
 // Font size of the post toc content.
 $post-toc-content: 15px !default;
