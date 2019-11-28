@@ -16,8 +16,8 @@ before_install:
   # - git clone https://github.com/shixiaohu2206/hexo-theme-huhu.git themes/huhu
 install:
   - npm install
-  - npm install --save hexo-deployer-git hexo-generator-feed hexo-generator-json-content hexo-renderer-scss
-  # - npm install --save shelljs hexo-renderer-webpack hexo-deployer-git hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+  - npm install --save hexo-deployer-git hexo-generator-feed hexo-renderer-scss
+  # - npm install --save shelljs hexo-renderer-webpack hexo-deployer-git hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive  hexo-generator-json-content
 script:
   - hexo clean
   - hexo generate

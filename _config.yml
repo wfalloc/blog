@@ -96,25 +96,25 @@ feed:
   order_by: -date
 
 # 开启站内搜索
-site_search: true
+# site_search: true
 
 # 站内搜索生成文件配置 https://github.com/alexbruno/hexo-generator-json-content
-jsonContent:
-  meta: false
-  pages: false
-  dateFormat: 'Y-m-d H:i'
-  posts:
-    title: true
-    date: true
-    path: true
-    text: true
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: true
-    excerpt: false
-    categories: false
-    tags: true
+# jsonContent:
+#   meta: false
+#   pages: false
+#   dateFormat: 'Y-m-d H:i'
+#   posts:
+#     title: true
+#     date: true
+#     path: true
+#     text: true
+#     raw: false
+#     content: false
+#     slug: false
+#     updated: false
+#     comments: false
+#     link: false
+#     permalink: true
+#     excerpt: false
+#     categories: false
+#     tags: true
