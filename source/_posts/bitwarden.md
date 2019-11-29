@@ -12,7 +12,7 @@ id: 14319
 
 首先你需要一台服务器、一个域名。
 
-##### 安装 Docker
+#### 安装 Docker
 
 ```
 curl -sSL https://get.docker.com/ | sh
@@ -31,7 +31,7 @@ docker -v
 // Docker version 19.03.1, build 74b1e89
 ```
 
-##### 安装 docker-compose
+#### 安装 docker-compose
 
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -54,13 +54,13 @@ docker-compose --version
 
 Bitwarden 官方镜像使用 Mysql 作为密码数据库，对服务器配置要求较高。Github 上有个第三方项目 bitwarden_rs 使用 SQLite 数据库，对服务器要求较低。故我们使用 bitwarden_rs 搭建服务。
 
-##### 新建 Bitwarden 文件夹
+#### 新建 Bitwarden 文件夹
 
 ```
 mkdir bitwarden && cd bitwarden
 ```
 
-##### 配置文件
+#### 配置文件
 
 新建 config.env 配置文件
 
@@ -108,11 +108,13 @@ services:
 docker-compose up -d
 ```
 
-##### 添加反向代理
+#### 添加反向代理
 
 使用宝塔面板开启反向代理
 
-### 打开网页端注册用户并导入数据
+### 数据导入
+
+打开网页端注册用户并导入数据
 
 ### 关闭网页访问和用户注册
 
