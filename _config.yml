@@ -80,10 +80,10 @@ theme: even
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repository: https://{TC_USER}:{TC_TOKEN}@git.coding.net/wfalloc/pages.git
+    repository: https://{GH_TOKEN}@github.com/wfalloc/wfalloc.github.io.git
     branch: master
   - type: git
-    repository: https://{GH_TOKEN}@github.com/wfalloc/wfalloc.github.io.git
+    repository: https://{TC_USER}:{TC_TOKEN}@git.coding.net/wfalloc/pages.git
     branch: master
 
 feed:
