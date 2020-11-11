@@ -2,7 +2,7 @@
 language: node_js
 # node版本
 node_js:
-  - 11
+  - lts/*
 # 指定缓存模块
 cache:
   directories:
@@ -13,10 +13,12 @@ branches:
     - master
 # 下载主题
 before_install:
+  - export TZ='Asia/Shanghai'
   # - git clone https://github.com/shixiaohu2206/hexo-theme-huhu.git themes/huhu
 install:
+  - npm install hexo-cli -g
   - npm install
-  - npm install --save hexo-deployer-git hexo-generator-feed hexo-renderer-scss
+  # - npm install --save hexo-deployer-git hexo-generator-feed hexo-renderer-scss
   # - npm install --save shelljs hexo-renderer-webpack hexo-deployer-git hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive  hexo-generator-json-content
 script:
   - hexo clean
