@@ -2,7 +2,7 @@
 language: node_js
 # node版本
 node_js:
-  - 14
+  - 11
 # 指定缓存模块
 cache:
   directories:
