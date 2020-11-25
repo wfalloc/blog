@@ -24,6 +24,5 @@
       <i class="iconfont icon-heart"></i>
     </span>
     <span class="author">{{ config.author }}</span>
-    <!--<span class="beian"><a class="theme-link" href="http://www.beian.miit.gov.cn/">豫ICP备19041234号</a></span>-->
   </span>
 </div>
