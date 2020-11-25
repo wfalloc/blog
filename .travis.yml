@@ -18,7 +18,7 @@ before_install:
 install:
   - npm install hexo-cli -g
   - npm install hexo-deployer-git hexo-generator-feed hexo-renderer-scss hexo-renderer-swig --save
-  - npm install
+  # - npm install
   # - npm install --save shelljs hexo-renderer-webpack hexo-deployer-git hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive  hexo-generator-json-content
 script:
   - hexo clean
