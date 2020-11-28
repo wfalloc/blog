@@ -4,9 +4,9 @@ language: node_js
 node_js:
   - lts/*
 # 指定缓存模块
-cache:
-  directories:
-    - node_modules
+# cache:
+#   directories:
+#     - node_modules
 # 监听分支
 branches:
   only:
@@ -27,8 +27,8 @@ after_script:
   - git config user.name "wfanr"
   - git config user.email "wfalloc@163.com"
   - sed -i "s/{GH_TOKEN}/${GH_TOKEN}/g" ./_config.yml
-  - sed -i "s/{TC_USER}/${TC_USER}/g" ./_config.yml
-  - sed -i "s/{TC_TOKEN}/${TC_TOKEN}/g" ./_config.yml
+  # - sed -i "s/{TC_USER}/${TC_USER}/g" ./_config.yml
+  # - sed -i "s/{TC_TOKEN}/${TC_TOKEN}/g" ./_config.yml
   - hexo deploy
 # 通知
 notifications:
